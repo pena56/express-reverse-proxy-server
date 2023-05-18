@@ -8,7 +8,8 @@ const app = express();
 
 const ALLOWED_ORIGINS = [
   "http://localhost:5173",
-  "https://flovest-staging-dashboard.web.app",
+  "https://myflovest.com",
+  "https://app.myflovest.com",
 ];
 
 app.use(
